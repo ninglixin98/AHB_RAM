@@ -1,0 +1,76 @@
+Chronologic VCS simulator copyright 1991-2018
+Contains Synopsys proprietary information.
+Compiler version O-2018.09-SP2_Full64; Runtime version O-2018.09-SP2_Full64;  Jun  7 22:47 2022
+UVM_INFO /opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/base/uvm_root.svh(402) @ 0: reporter [UVM/RELNOTES] 
+----------------------------------------------------------------
+UVM-1.2.Synopsys
+(C) 2007-2014 Mentor Graphics Corporation
+(C) 2007-2014 Cadence Design Systems, Inc.
+(C) 2006-2014 Synopsys, Inc.
+(C) 2011-2013 Cypress Semiconductor Corp.
+(C) 2013-2014 NVIDIA Corporation
+----------------------------------------------------------------
+
+  ***********       IMPORTANT RELEASE NOTES         ************
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_NO_DEPRECATED undefined.
+  See http://www.eda.org/svdb/view.php?id=3313 for more details.
+
+  You are using a version of the UVM library that has been compiled
+  with `UVM_OBJECT_DO_NOT_NEED_CONSTRUCTOR undefined.
+  See http://www.eda.org/svdb/view.php?id=3770 for more details.
+
+      (Specify +UVM_NO_RELNOTES to turn off this notice)
+
+VCD+ Writer O-2018.09-SP2_Full64 Copyright (c) 1991-2018 by Synopsys Inc.
+
+ucli% runUVM_INFO @ 0: reporter [RNTST] Running test rkv_ahbram_smoke_test...
+UVM_INFO ../seq_lib/rkv_ahbram_base_virtual_sequence.sv(20) @ 0: uvm_test_top.env.virt_sqr@@this [body] Entered...
+UVM_INFO ../seq_lib/rkv_ahbram_base_virtual_sequence.sv(27) @ 0: uvm_test_top.env.virt_sqr@@this [body] Exiting...
+UVM_INFO ../seq_lib/rkv_ahbram_smoke_virt_seq.sv(13) @ 0: uvm_test_top.env.virt_sqr@@this [body] Entered...
+UVM_INFO ../seq_lib/rkv_ahbram_smoke_virt_seq.sv(15) @ 0: uvm_test_top.env.virt_sqr@@this [body] Exiting...
+UVM_INFO /opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/base/uvm_objection.svh(1276) @ 1000000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+UVM_INFO ../env/rkv_ahbram_env.sv(75) @ 1000000: uvm_test_top.env [TEST_SUMMARY] 
+====================================== 
+CURRENT TEST SUMMARY 
+SEQUENCE CHECK COUNT: 0 
+SEQUENCE CHECK ERROR: 0 
+SCOREBOARD CHECK COUNT: 0 
+SCOREBOARD CHECK ERROR: 0 
+====================================== 
+
+UVM_INFO /opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/base/uvm_report_catcher.svh(705) @ 1000000: reporter [UVM/REPORT/CATCHER] 
+--- UVM Report catcher Summary ---
+
+
+Number of demoted UVM_FATAL reports  :    0
+Number of demoted UVM_ERROR reports  :    0
+Number of demoted UVM_WARNING reports:    0
+Number of caught UVM_FATAL reports   :    0
+Number of caught UVM_ERROR reports   :    0
+Number of caught UVM_WARNING reports :    0
+
+UVM_INFO /opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/base/uvm_report_server.svh(894) @ 1000000: reporter [UVM/REPORT/SERVER] 
+--- UVM Report Summary ---
+
+** Report counts by severity
+UVM_INFO :    9
+UVM_WARNING :    0
+UVM_ERROR :    0
+UVM_FATAL :    0
+** Report counts by id
+[RNTST]     1
+[TEST_DONE]     1
+[TEST_SUMMARY]     1
+[UVM/RELNOTES]     1
+[UVM/REPORT/CATCHER]     1
+[body]     4
+
+$finish called from file "/opt/synopsys/vcs/vcs-mx/O-2018.09-SP2/etc/uvm-1.2/base/uvm_root.svh", line 527.
+$finish at simulation time              1000000
+Simulation complete, time is 1000000 ps.
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1000000 ps
+CPU Time:      0.660 seconds;       Data structure size:   8.5Mb
+Tue Jun  7 22:47:49 2022
